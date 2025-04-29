@@ -1,0 +1,150 @@
+Design and develop an AI-powered health and wellness app, “My Well Self,” focused on maximizing user engagement, health outcomes, and HSA (Health Spending Account) optimization. The app should leverage a conversational survey, personalized analytics, actionable recommendations, financial integration, and employer-facing analytics. Below is a detailed prompt to guide development on an AI app platform like Replit.
+
+Core Features
+1. Conversational Wellness Assessment
+
+Implement a chatbot (“Abby”) to guide users through a dynamic wellness survey.
+
+Start with foundational questions on diet, weight, alcohol/drug use, physical activity, sleep, stress, mental and emotional health, and self-care.
+
+Use 5-point Likert scale answers (from “Excellent” to “Not good at all”).
+
+Dynamically add follow-up questions for low-scoring areas (e.g., “What stressors keep you up at night?” or “Do you use screens before bed?”).
+
+Include questions on HSA literacy, usage barriers, financial health, medical history, current medications, health goals, technology access, and behavioral drivers.
+
+2. Personalized Recommendations & Action Plans
+
+After the survey, generate a personalized wellness score with a visual dashboard (e.g., radar chart or progress bars for each health domain).
+
+Offer immediate, actionable tips for improvement in weak areas (e.g., “Try mindfulness apps for stress management”).
+
+Curate and link to relevant articles, videos, and tools.
+
+Suggest specific HSA-eligible services/products tailored to user needs (e.g., therapy, fitness classes, nutritionist, digital therapeutics).
+
+Build a 4-week action plan with milestones and HSA-eligible options.
+
+3. HSA Optimization & Financial Tools
+
+Calculate and display estimated unused HSA funds.
+
+Recommend optimal allocation of HSA funds for upcoming health goals.
+
+Provide a budget planner for HSA spending (e.g., “Set aside $500 for stress management programs”).
+
+Educate users on maximizing HSA benefits, contribution limits, and tax advantages.
+
+Compare costs of preventive care vs. long-term health savings.
+
+Offer a “Smart HSA Score” ranking spending categories by ROI (preventive care, chronic-disease management, mental health support).
+
+4. Claims & Coverage Assistance
+
+Guide users through HSA claims workflows, including receipt upload (OCR), auto-filling forms, and predicting out-of-pocket expenses.
+
+Integrate with insurer APIs for expedited claims processing and real-time claim status updates.
+
+Provide a virtual medicine cabinet to track drug costs, suggest generics, and flag upcoming refills.
+
+5. Dynamic Wellness Dashboard
+
+Visualize wellness scores and financial health using charts and progress bars.
+
+Allow users to track trends over time, retake quizzes, and compare results.
+
+Highlight improvements, regressions, and opportunities for HSA optimization.
+
+6. Engagement & Gamification
+
+Offer badges for completed goals and healthy behaviors (e.g., “Sleep Champion”).
+
+Create 30-day challenges with HSA-funded rewards.
+
+Send reminders and seasonal tips (e.g., “Try winter fitness programs covered by HSA”).
+
+7. Tech Integrations
+
+Sync with wearables (Fitbit, Apple Health) to auto-populate activity and sleep metrics.
+
+Enable Abby to answer user-initiated questions about HSA coverage, eligible expenses, and services.
+
+8. Marketplace & Partner Ecosystem
+
+Integrate a marketplace of HSA-eligible providers (telehealth, gyms, nutritionists) with exclusive offers.
+
+Enable direct booking and payment for services using HSA funds.
+
+9. Proactive Follow-Ups
+
+Send automated emails/notifications to check on user progress, remind about goals, or prompt quiz retakes.
+
+Escalate to a human health advisor when needed.
+
+10. Security & Trust
+
+Highlight HIPAA compliance, data encryption, and privacy practices.
+
+Display testimonials or user stories (mock-ups) showing improved health and HSA savings.
+
+Employer/Advisor Analytics (B2B Focus)
+Aggregate anonymized workforce health and HSA utilization data.
+
+Show cost savings, risk-area heatmaps, and engagement trends.
+
+Allow advisors to view member profiles, chat transcripts, and recommended action plans for efficient follow-up.
+
+Example User Flow
+Onboarding: Abby welcomes the user, explains the process, and starts the wellness survey.
+
+Survey: User answers core and dynamic follow-up questions.
+
+Results: User receives a personalized wellness score, visual dashboard, and specific recommendations.
+
+Action Plan: User sees a tailored 4-week plan and HSA-eligible service suggestions.
+
+Financial Tools: User views HSA balance, spending suggestions, and claim assistance.
+
+Engagement: User participates in challenges, tracks progress, and receives reminders.
+
+Marketplace: User books services directly and pays with HSA funds.
+
+Follow-Up: Abby checks in periodically, offers new tips, and updates the action plan.
+
+Example Questions to Include
+“How would you rate your eating habits these days?”
+
+“How do you manage your weight?”
+
+“How often do you feel overwhelmed at work?”
+
+“Do you use screens within an hour of bedtime?”
+
+“Are you aware of your HSA balance and coverage?”
+
+“Do you have any chronic conditions (e.g., diabetes, hypertension)?”
+
+“What are your top priorities for your HSA funds?”
+
+“What obstacles have prevented you from using your HSA fully?”
+
+“Do you use any wearable devices or health apps?”
+
+“How comfortable are you with mobile apps and online portals?”
+
+Technical Considerations
+Use a modular, API-driven architecture for easy integration with third-party services (wearables, insurers, HSA providers).
+
+Ensure scalability, security, and accessibility (multilingual support, voice-to-text, adjustable fonts).
+
+Prioritize a modern, mobile-first UI/UX.
+
+Prototype Demo Ideas
+Mock dashboard with sample wellness score and “Improve Sleep” recommendations.
+
+Sample 4-week action plan using HSA-eligible services.
+
+Video walkthrough showing employer dashboard and cost-saving analytics.
+
+Goal:
+Build a prototype that demonstrates immediate user value (personalized insights), long-term engagement (tracking, gamification), and financial empowerment (HSA optimization), positioning My Well Self as a transformative tool for both individual users and enterprise clients.

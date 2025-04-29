@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --primary: 207 90% 54%;
+    --primary-foreground: 211 100% 99%;
+    --secondary: 152 76% 40%;
+    --secondary-foreground: 156 64% 97%;
+    --accent: 262 83% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --ring: 20 14.3% 4.1%;
+    --radius: 0.5rem;
+    --chart-1: 207 90% 54%;
+    --chart-2: 262 83% 65%;
+    --chart-3: 152 76% 40%;
+    --chart-4: 0 84.2% 60.2%;
+    --chart-5: 45 93% 47%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 20 14.3% 4.1%;
+    --sidebar-primary: 207 90% 54%;
+    --sidebar-primary-foreground: 211 100% 99%;
+    --sidebar-accent: 262 83% 65%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 20 5.9% 90%;
+    --sidebar-ring: 20 14.3% 4.1%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --primary: 207 90% 54%;
+    --primary-foreground: 211 100% 99%;
+    --secondary: 152 76% 40%;
+    --secondary-foreground: 156 64% 97%;
+    --accent: 262 83% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --ring: 240 4.9% 83.9%;
+    --radius: 0.5rem;
+    --chart-1: 207 90% 54%;
+    --chart-2: 262 83% 65%;
+    --chart-3: 152 76% 40%;
+    --chart-4: 0 70% 50%;
+    --chart-5: 45 93% 47%;
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 207 90% 54%;
+    --sidebar-primary-foreground: 211 100% 99%;
+    --sidebar-accent: 262 83% 65%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-neutral-50 text-foreground font-sans antialiased;
+  }
+}
+
+/* Custom styles for the app */
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chat-bubble {
+  border-radius: 18px;
+  max-width: 85%;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.chat-bubble.user {
+  border-bottom-right-radius: 4px;
+  align-self: flex-end;
+}
+
+.chat-bubble.assistant {
+  border-bottom-left-radius: 4px;
+  align-self: flex-start;
+}
+
+.progress-circle {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+
+.progress-circle__value {
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease;
+}
